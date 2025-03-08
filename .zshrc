@@ -106,3 +106,6 @@ unsetopt sharehistory
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias reload-history="fc -RI"
+
+# Source the .fzf.zsh file
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
