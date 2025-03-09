@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ln -s dotfiles-general/.zshrc ~/.zshrc
+ln -s "$(pwd)/.zshrc" ~/.zshrc
