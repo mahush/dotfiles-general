@@ -1,0 +1,10 @@
+[core]
+  whitespace = trailing-space
+  editor = vim
+[user]
+	email = info@mahush.de
+	name = mahush
+[merge]
+    tool = meld
+[mergetool "meld"]
+  cmd = meld --auto-merge "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
