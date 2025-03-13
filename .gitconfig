@@ -1,6 +1,7 @@
 [core]
   whitespace = trailing-space
   editor = vim
+  excludesFile = ~/.gitignore
 [user]
 	email = info@mahush.de
 	name = mahush
