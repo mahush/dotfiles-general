@@ -1,2 +1,6 @@
 *.swp
 *.cache/*
+build-coverage/*
+hub/*
+install-coverage/*
+tmp_matti/*
