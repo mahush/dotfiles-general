@@ -2,6 +2,7 @@
   whitespace = trailing-space
   editor = vim
   excludesFile = ~/.gitignore
+  page = delta
 [user]
 	email = info@mahush.de
 	name = mahush
@@ -9,3 +10,5 @@
     tool = meld
 [mergetool "meld"]
   cmd = meld --auto-merge "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+[pager]
+  show = delta
