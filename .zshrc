@@ -109,3 +109,5 @@ alias reload-history="fc -RI"
 
 # Source the .fzf.zsh file
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export LC_ALL=en_US.UTF-8
