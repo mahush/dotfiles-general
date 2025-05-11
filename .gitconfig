@@ -7,8 +7,9 @@
 	email = info@mahush.de
 	name = mahush
 [merge]
-    tool = meld
+  tool = meld
+  conflictstyle = diff3
 [mergetool "meld"]
-  cmd = meld --auto-merge "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+  cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED" --diff "$BASE" "$LOCAL" --diff "$BASE" "$REMOTE" --auto-merge
 [pager]
   show = delta
