@@ -76,6 +76,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# Add hostname prefix to simple prompt
+ORIGINAL_PROMPT=$PROMPT
+PROMPT='%F{green}%m:%f'"$ORIGINAL_PROMPT"
+
 setopt histignorealldups incappendhistory
 unsetopt sharehistory
 
